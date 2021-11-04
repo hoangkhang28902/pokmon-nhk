@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 section{
-   background-image:linear-gradient(rgba(2,3,6,0.3)50%,rgba(2,3,6,0.3)50%), url("../image/backgroundpkm1.jpg");
+   background-image:linear-gradient(rgba(2,3,6,0.3)50%,rgba(2,3,6,0.3)50%), url("./image/backgroundpkm1.jpg");
    min-height: 50vh;
    width: 100%;
    background-size:cover;
