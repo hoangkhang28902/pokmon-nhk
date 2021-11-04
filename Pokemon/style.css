@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+   background-image:linear-gradient(rgba(2,3,6,0.3)50%,rgba(2,3,6,0.3)50%), url("../image/backgroundpkm1.jpg");
+   min-height: 50vh;
+   width: 100%;
+   background-size:cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   position: relative;
+}h1
+{
+   position: absolute;
+   top: 30%;
+   left: 35%;
+   font-size: 40px;
+   color:wheat;
+   font-weight: bold;
+}
+nav {
+   position: absolute;
+   top: 40%;
+   left: 40%;
+   margin-top: 5%;
+}
+ul 
+{
+   list-style-type: none;
+   overflow: hidden;
+   width: 100%;
+   background-color: aqua;
+   border: 1px solid aquamarine;
+}
+li 
+{
+  float: left;
+}
+li a 
+{
+  display: inline-block;
+  padding: 16px 18px;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  transition: 1s;
+}
+li a:hover
+{
+  font-size: 25px;
+  background-color: crimson;
+  color: whitesmoke;
+}
+.main {
+ display: flex;
+ 
+}
+.pokemon 
+{  flex: 1;
+ padding: 10px 10px;
+ border: 2px solid red;
+ margin-left: 10px;
+ margin-top: 10px;
+ border-radius: 10%;
+ background-color:rgba(240, 64, 0, 0.5);
+ position: relative;
+}
+.pokemon img 
+{           
+ border-radius: 10%;
+ height: 200px;
+ width: 200px;
+ margin-left: 28%;          
+}
+.icon
+{
+ 
+ display: flex;
+
+ 
+}
+.icon img 
+{
+height:50px;
+width: 50px;
+border-radius: 50%;
+margin-left: 0;
+}
+.icon p
+{
+font-size: 20px;
+font-weight: bold;
+padding: 10px 10px;
+margin-top: 3px;
+margin-left: 25px;
+}
+.icon p:not(.no)
+{
+background-image: linear-gradient(to right bottom ,#ff0000,#FF4C4C);
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+p 
+{
+font-size: 30px;
+text-align: center;
+color: #ff0000;
+} 
+.thuy 
+{
+background-color:rgba(0, 128, 240, 0.2);
+}
+.thuy p:not(.no)
+{
+background-image: linear-gradient(to right bottom ,#0000ff,#000000 80%);
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+.co 
+{
+background-color: rgba(0, 240, 128, 0.2);
+}
+.dien 
+{
+background-color: rgba(180, 240, 0, 0.1);
+}
+.co p:not(.no)
+{
+background-image: linear-gradient(to right bottom ,#04B000,#000000 80%);
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+.dien p:not(.no)
+{
+background-image: linear-gradient(to right bottom ,#B2B200,#000000 80%);
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+.Legendary 
+{
+    background-color: rgba(240, 0, 240, 0.3);
+}
+.Legendary  p:not(.no)
+{
+background-image: linear-gradient(to right bottom ,#CC00CC,#000000 80%);
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
